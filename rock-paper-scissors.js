@@ -95,7 +95,7 @@ async function playGame() {
     }
 
     else {
-        winH3.textContent = `It was a tie!`;
+        winH3.textContent = `It was a tie! The score is ${computerScore}-${humanScore}.`;
     }
 
     document.getElementById("result-container").appendChild(winH3);

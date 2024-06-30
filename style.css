@@ -1,0 +1,25 @@
+.buttons {
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(43, 149, 255);
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.buttons:hover {
+    background-color: rgb(107, 181, 255);
+}
+
+#result-container {
+    font-family: sans-serif, Helvetica;
+    font-size: 3em;
+    text-align: center;
+}
